@@ -1,6 +1,6 @@
 # created by virtualenv automatically
 bin/*
 lib/*
-Python
+.Python
 pyvenv.cfg
 chromedriver
