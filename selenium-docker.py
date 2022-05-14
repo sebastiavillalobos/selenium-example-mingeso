@@ -13,7 +13,7 @@ from selenium.webdriver.common.by import By
 options = webdriver.ChromeOptions()
 options.add_argument('--disable-dev-shm-usage')
 
-
+# si ejecutan docker en forma local la url es: http://127.0.0.1:4444
 dirver_by_docker = webdriver.Remote(command_executor="http://192.168.1.99:4444", options=options)
 
 
